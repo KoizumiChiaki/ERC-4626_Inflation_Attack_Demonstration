@@ -1,0 +1,12 @@
+node_modules/
+cache/
+artifacts/
+typechain-types/
+coverage/
+.env
+
+# 课程/报告相关（不上传）
+ERC4626与通胀攻击详解（入门版）.md
+实验报告模板.md
+要求.txt
+*.pptx

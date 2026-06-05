@@ -1,0 +1,17 @@
+{
+  "name": "erc4626-inflation-lab",
+  "version": "1.0.0",
+  "description": "ERC-4626 inflation attack vulnerable vault lab",
+  "scripts": {
+    "test": "hardhat test",
+    "attack": "hardhat run scripts/attack.js",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
